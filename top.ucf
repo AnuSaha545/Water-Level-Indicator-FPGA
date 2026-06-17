@@ -1,0 +1,17 @@
+CONFIG VCCAUX = "3.3";
+
+NET "CLOCK_100" LOC = V10 | IOSTANDARD = LVCMOS33 | PERIOD = 100MHz;
+
+# Ultrasonic sensor pins on Header P6
+NET "TRIG"      LOC = T4  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST; # P6 Pin 3
+NET "ECHO"      LOC = V4  | IOSTANDARD = LVCMOS33;                            # P6 Pin 4
+
+# LEDs used for water level indication
+NET "LED[7]"    LOC = P15 | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST;
+NET "LED[5]"    LOC = N15 | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST;
+NET "LED[2]"    LOC = U18 | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST;
+NET "LED[0]"    LOC = T18 | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST;
+
+# 16x2 I2C LCD pins on Header P7
+NET "LCD_SCL"   LOC = R8  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST; # P7 Pin 3
+NET "LCD_SDA"   LOC = T8  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST; # P7 Pin 4
