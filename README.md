@@ -63,15 +63,3 @@ This project was developed by:
 ## Faculty Mentor
 
 **Prof. Lakshmi Iyer**
-
-## Academic Information
-
-**Semester VI Mini Project**
-
-Department of Electronics and Telecommunication Engineering
-
-Don Bosco Institute of Technology, Mumbai
-
-## License
-
-This project is intended for academic and educational purposes.
