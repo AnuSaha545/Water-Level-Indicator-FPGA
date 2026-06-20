@@ -59,7 +59,3 @@ This project was developed by:
 * Yashvi Jain
 * Dhruv Tare
 * Vipaak Gaikwad
-
-## Faculty Mentor
-
-**Prof. Lakshmi Iyer**
